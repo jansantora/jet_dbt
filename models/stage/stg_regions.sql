@@ -2,4 +2,4 @@ select
     R_REGIONKEY, 
     R_NAME, 
     R_COMMENT
-from SOURCEDB.MK_MALL.REGIONS
+from {{source("SOURCEDB.MK_MALL","regions")}}

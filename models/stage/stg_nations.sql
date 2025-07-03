@@ -3,4 +3,4 @@ select
     N_NAME, 
     N_REGIONKEY, 
     N_COMMENT
-from SOURCEDB.MK_MALL.NATIONS
+from {{source("SOURCEDB.MK_MALL", "nations")}}

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: SOURCEDB.MK_MALL
+    database: SOURCEDB
+    schema: MK_MALL
+    tables:
+      - name: nations
+      - name: regions
+
